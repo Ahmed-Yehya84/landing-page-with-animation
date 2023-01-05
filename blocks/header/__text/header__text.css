@@ -1,0 +1,8 @@
+.header__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100%;
+  z-index: 0;
+}
