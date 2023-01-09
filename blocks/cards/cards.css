@@ -1,8 +1,10 @@
 .cards {
   margin: 0 auto;
   /* border: 1px solid green; */
-  min-width: 920px;
-  display: inline-flex;
+  max-width: 920px;
+  display: flex;
   flex-wrap: wrap;
-  /* gap: 100px; */
+  padding: 0;
+  list-style: none;
+  gap: 100px;
 }

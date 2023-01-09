@@ -24,7 +24,7 @@
         <!-- </div> -->
         <div class="header__main-illustration"></div>
 
-        <div class="header__square-pic"></div>
+        <div class="header__square-pic rotation"></div>
       </header>
       <main class="content">
         <section class="description" aria-label="две колонки">
@@ -39,8 +39,9 @@
                 быстро выветривается и не приносит пользы.
               </p>
               <p class="two-columns__paragraph">
-                <span class="two-columns__span">Вывод:</span>учиться тоже нужно
-                уметь, но почему-то этому мало где учат. Что с этим делать?
+                <span class="two-columns__span-accent">Вывод:</span>учиться тоже
+                нужно уметь, но почему-то этому мало где учат. Что с этим
+                делать?
               </p>
               <p class="two-columns__paragraph">
                 Конкретные техники и упражнения помогают изменить подход к
@@ -54,8 +55,8 @@
         <section class="techniques" aria-label="методы">
           <h2 class="section-title">Техники обучения</h2>
           <p class="section-subtitle">Пять практик от Барбары Оакли</p>
-          <div class="cards">
-            <div class="cards__item">
+          <ul class="cards">
+            <li class="cards__item">
               <img
                 src="./images/cards-attention.png"
                 alt="вида внимания"
@@ -66,8 +67,8 @@
                 Глубокие знания возникают, если чередовать сфокусированное и
                 рассеянное мышление.
               </p>
-            </div>
-            <div class="cards__item">
+            </li>
+            <li class="cards__item">
               <img
                 src="./images/cards-recall.png"
                 alt="Вспоминайте изученное"
@@ -78,8 +79,8 @@
                 Вспоминайте изученное — это позволит соединить разрозненные
                 порции памяти.
               </p>
-            </div>
-            <div class="cards__item">
+            </li>
+            <li class="cards__item">
               <img
                 src="./images/cards-interliving.png"
                 alt="Интерливинг"
@@ -90,8 +91,8 @@
                 Изучайте несколько навыков одновременно, они обогащают друг
                 друга.
               </p>
-            </div>
-            <div class="cards__item">
+            </li>
+            <li class="cards__item">
               <img
                 src="./images/cards-question.png"
                 alt="Вопросы"
@@ -102,8 +103,8 @@
                 Слушая преподавателя, придумывайте хороший вопрос, который вас
                 действительно волнует.
               </p>
-            </div>
-            <div class="cards__item">
+            </li>
+            <li class="cards__item">
               <img
                 src="./images/cards-competence.png"
                 alt="компетентности"
@@ -114,23 +115,27 @@
                 Повторите про себя, запишите, расскажите другу: вам только
                 кажется, что вы владеете новой темой.
               </p>
-            </div>
-          </div>
+            </li>
+          </ul>
         </section>
 
         <section class="video" aria-label="видео">
           <h2 class="section-title">Видео нa TED</h2>
           <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-          <div class="video__iframes">
-            <iframe
-              src="https://www.youtube.com/embed/arj7oStGLkU"
-              class="video__iframe"
-            ></iframe>
-            <iframe
-              src="https://www.youtube.com/embed/5MgBikgcWnY"
-              class="video__iframe"
-            ></iframe>
-          </div>
+          <ul class="video__iframes">
+            <li>
+              <iframe
+                src="https://www.youtube.com/embed/arj7oStGLkU"
+                class="video__iframe"
+              ></iframe>
+            </li>
+            <li>
+              <iframe
+                src="https://www.youtube.com/embed/5MgBikgcWnY"
+                class="video__iframe"
+              ></iframe>
+            </li>
+          </ul>
         </section>
 
         <section class="oakley" aria-label="оукли">
@@ -216,7 +221,7 @@
         <section class="khan" aria-label="цитата хана">
           <div class="khan__container">
             <p class="khan__author">Салман Хан</p>
-            <h3 class="khan__title">Весь мир — школа</h3>
+            <h2 class="khan__title">Весь мир — школа</h2>
             <blockquote cite="Джордж-Лукас" class="khan__quote">
               Страсть и новаторство Сала Хана меняют процесс обучения миллионов
               студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать
@@ -238,7 +243,7 @@
         </section>
 
         <section class="kaufman" aria-label="теория Кауфмана">
-          <div class="kaufman__triangle"></div>
+          <div class="kaufman__triangle rotation"></div>
           <h2 class="section-title section-title_theme_dark">
             Принципы обучения
           </h2>
@@ -314,32 +319,40 @@
           <p class="section-subtitle">
             Больше материалов о техниках и лайфхаках обучения
           </p>
-          <div class="resources__logo-zone">
-            <a href="#"
-              ><img
-                src="./images/logo/resources-arzamas.svg"
-                alt="логотип аразмаса"
-                class="resources__link"
-            /></a>
-            <a href="#"
-              ><img
-                src="./images/logo/resources-n1.svg"
-                alt="логотип n1"
-                class="resources__link"
-            /></a>
-            <a href="#"
-              ><img
-                src="./images/logo/resources-strelka.svg"
-                alt="логотип стерлки"
-                class="resources__link"
-            /></a>
-            <a href="#"
-              ><img
-                src="./images/logo/resources-polka.svg"
-                alt="логотип polka"
-                class="resources__link"
-            /></a>
-          </div>
+          <ul class="resources__logo-zone">
+            <li>
+              <a href="#" class="resources__link"
+                ><img
+                  src="./images/logo/resources-arzamas.svg"
+                  alt="логотип аразмаса"
+                  class="resources__logo"
+              /></a>
+            </li>
+            <li>
+              <a href="#" class="resources__link"
+                ><img
+                  src="./images/logo/resources-n1.svg"
+                  alt="логотип n1"
+                  class="resources__logo"
+              /></a>
+            </li>
+            <li>
+              <a href="#" class="resources__link"
+                ><img
+                  src="./images/logo/resources-strelka.svg"
+                  alt="логотип стерлки"
+                  class="resources__logo"
+              /></a>
+            </li>
+            <li>
+              <a href="#" class="resources__link"
+                ><img
+                  src="./images/logo/resources-polka.svg"
+                  alt="логотип polka"
+                  class="resources__logo"
+              /></a>
+            </li>
+          </ul>
         </section>
       </main>
       <footer class="footer" aria-label="подвал">
