@@ -2,4 +2,5 @@
 landing page with animation
 
 
-![screencapture-127-0-0-1-5502-index-html-2023-01-10-23_48_20](https://user-images.githubusercontent.com/46849154/211660950-5cb4cde3-2e41-4f5d-9870-33f852b11bf2.png)
+
+![screencapture-127-0-0-1-5500-index-html-2023-01-11-22_40_07](https://user-images.githubusercontent.com/46849154/211902087-6a920a1f-2ea7-4e1c-b4d8-72d4890a8d8d.png)
